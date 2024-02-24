@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     //  const strings for ANIMATOR PARAMETERS, so they can't be changed during runtime
     private const string _horizontal = "Horizontal";
     private const string _vertical = "Vertical";
+    private const string _lastHorizontal = "LastHorizontal";
+    private const string _lastVertical = "LastVertical";
 
     private void Awake()
     {
@@ -31,5 +33,11 @@ public class PlayerMovement : MonoBehaviour
 
         _animator.SetFloat(_horizontal, _movement.x);
         _animator.SetFloat(_vertical, _movement.y);
+
+        if (_movement != Vector2.zero)
+        {
+            _animator.SetFloat(_lastHorizontal, _movement.x);
+            _animator.SetFloat(_lastVertical, _movement.y);
+        }
     }
 }
