@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 8,
+    "__cWid": 8,
+    "cachedPixelData": {
+      "opaqueTiles": "0000000010000000100000000000000011110000001000000000000000000000",
+      "averageColors": "65686568656865683568356800000000f6688568000085688568856800000000f668b5686568b568000000000000000065686568656865680000000000000000f456f456f456f4568456845600000000f456f456f456f45684568446000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Walls",
+    "padding": 0,
+    "pxHei": 128,
+    "pxWid": 128,
+    "relPath": "sprites/tilesets/walls/walls.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 16,
+    "uid": 15
+  }
+}

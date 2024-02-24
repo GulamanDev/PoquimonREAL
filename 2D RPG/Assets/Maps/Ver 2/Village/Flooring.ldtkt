@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 3,
+    "__cWid": 5,
+    "cachedPixelData": {
+      "opaqueTiles": "111111111111111",
+      "averageColors": "f433f433f433f443f443f433f443f433f443f443f433f433f433f222f222"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Flooring",
+    "padding": 0,
+    "pxHei": 48,
+    "pxWid": 80,
+    "relPath": "sprites/tilesets/floors/flooring.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 16,
+    "uid": 16
+  }
+}
