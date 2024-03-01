@@ -18,7 +18,7 @@
     "padding": 0,
     "pxHei": 64,
     "pxWid": 64,
-    "relPath": "sprites/tilesets/fences.png",
+    "relPath": "../../../../../../../Game Dev/GameProd/RPG Game/2D RPG/Assets/Maps/Ver 2/sprites/tilesets/fences.png",
     "savedSelections": [
 
     ],
@@ -28,6 +28,6 @@
     ],
     "tagsSourceEnumUid": null,
     "tileGridSize": 16,
-    "uid": 323
+    "uid": 315
   }
 }

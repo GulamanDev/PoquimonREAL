@@ -14,11 +14,11 @@
     "enumTags": [
 
     ],
-    "identifier": "Plains2",
+    "identifier": "Plains",
     "padding": 0,
     "pxHei": 192,
     "pxWid": 96,
-    "relPath": "plains.png",
+    "relPath": "tilesets/plains.png",
     "savedSelections": [
 
     ],
