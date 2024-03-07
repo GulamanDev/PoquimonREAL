@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03b0a93217c511848aea1befd50b4192
+guid: acc97d21327091c4d98759da643bf014
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -11,7 +11,7 @@ ScriptedImporter:
   _reimportOnDependencyChange: 1
   _pixelsPerUnit: 16
   _sprites:
-  - name: Walls_0
+  - name: Walls2_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -22,10 +22,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 18a49b5691fa90949972910506f83602
+    spriteID: 5d376673b769fbd488ec2f899060d671
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_1
+  - name: Walls2_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -36,10 +36,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 81b01461c6a38a248934573e9a01503b
+    spriteID: c71f336618567174087b0697b5227d09
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_2
+  - name: Walls2_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -50,10 +50,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 0e5b1913568fc7e4491b3b59d1ca1519
+    spriteID: a68be649fd8c20c439e7cf3991cc24cd
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_3
+  - name: Walls2_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -64,10 +64,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 3e121a2826f58cb4ab1dbbf7f4ba6d50
+    spriteID: cc81139786f447f4baa0a0c07008da88
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_4
+  - name: Walls2_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -78,10 +78,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 55eac057f8806d547af07fc3c911ec09
+    spriteID: 705a91ea3a33a254b9d15122016f6cf6
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_5
+  - name: Walls2_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -92,10 +92,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 2be253bb2f80d124b9e6d407c9295f87
+    spriteID: 4bfe628e2569ef9498d7eb51e2ddfb93
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_6
+  - name: Walls2_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -106,10 +106,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 27de03e6f6e073b4f976695395270501
+    spriteID: b9b192665001e4c438bc261126bf8805
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_7
+  - name: Walls2_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -120,10 +120,10 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: ff94656f983bf7448b03b650eef1b967
+    spriteID: 5354f55ad643cf84db0407edc5698172
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_8
+  - name: Walls2_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -134,10 +134,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 3ed8f7094886c3645b38d09ada1ac1c7
+    spriteID: dfdce5345b1ad8e4da9879556a01051a
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_9
+  - name: Walls2_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -148,10 +148,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 1559b611930a05b4481c3f9fcd60d32d
+    spriteID: c917cc2f79ed1de46a70da30609684c3
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_10
+  - name: Walls2_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -162,10 +162,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: f74fd2c9d8994864e80a52a3407adb02
+    spriteID: b70cf7fe84bed4f4db55915fa54add80
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_11
+  - name: Walls2_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -176,10 +176,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: e1402057ba8dda343b9fd04834db70bb
+    spriteID: bd92386a8dad8184d865e59894f021a9
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_12
+  - name: Walls2_12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -190,10 +190,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: fb2148ef2058b2745888aab931242526
+    spriteID: 8e0e15c66ebbd5b4b9af7c02b41ef6b0
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_13
+  - name: Walls2_13
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -204,10 +204,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: cdfb51ffd22c68048afa7f7f1e63821a
+    spriteID: b2d3ffca829aeb84596751832bbf62b0
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_14
+  - name: Walls2_14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -218,10 +218,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 884e7dc1a2f181f4394448fcce5c5fa0
+    spriteID: 920b0f68d454df74bab32fd6dd90481a
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_15
+  - name: Walls2_15
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -232,10 +232,10 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: ec20e1140df0e3e439b5212c0047440a
+    spriteID: de056e972a61e584ab547a058e441c56
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_16
+  - name: Walls2_16
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -246,10 +246,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 7983c07374d9d5a469a88aba1a2c3ed3
+    spriteID: 8b0301212f6bee2438b30cb188ae66ac
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_17
+  - name: Walls2_17
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -260,10 +260,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: bd8d40e6d44cb8349b1909418ada1a2a
+    spriteID: 7cd70f07513344a40acc6da9155dad10
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_18
+  - name: Walls2_18
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -274,10 +274,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 7d752467b028e5c4384b9cc8c594a686
+    spriteID: ab4ffaccd55aefb4889558e96b943d07
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_19
+  - name: Walls2_19
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -288,10 +288,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 66cc460c8a1d2154da92244928f4fd4c
+    spriteID: 20c8421de967fe341adb89c3a25f25fd
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_20
+  - name: Walls2_20
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -302,10 +302,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 45437637f88da78409d938c4c94452a4
+    spriteID: 6f104dec7740bb84abae811741578e4b
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_21
+  - name: Walls2_21
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -316,10 +316,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 4510d4242945cca4d80d681ad3f17aae
+    spriteID: 6188d5f677c69e546a3172585f84233c
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_22
+  - name: Walls2_22
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -330,10 +330,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 3885b84705f6d94479eac3910cf6b8d6
+    spriteID: dbe6ddd7d9c54cf498a1cd39ebb860b7
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_23
+  - name: Walls2_23
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -344,10 +344,10 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 5863f77a23bb33e41bd7345c8239650c
+    spriteID: 3ed401fea87a4314e99b4a36a62cc5d5
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_24
+  - name: Walls2_24
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -358,10 +358,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 448b727461d8c6244a1e0cdf971aeecb
+    spriteID: 719f93268b18f464bb648feb4fb4866c
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_25
+  - name: Walls2_25
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -372,10 +372,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 3bedf38e0f5bf1d4d86267f709c46a0f
+    spriteID: 922f1d496aae9864b8f3e7dc0bead82f
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_26
+  - name: Walls2_26
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -386,10 +386,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 0b2512013d9c5bd429eccffa72402e61
+    spriteID: f3993952d30875142be00f891a27539c
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_27
+  - name: Walls2_27
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -400,10 +400,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: f1e5d05840d89fd4aa432a53575c4d33
+    spriteID: 49e1f6726b4ab0147a6c8dcc89a911c7
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_28
+  - name: Walls2_28
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -414,10 +414,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 98c8b752bb5ff884088eea4ceab0ba19
+    spriteID: 5add881ab62ce3c44b939fb98be21b18
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_29
+  - name: Walls2_29
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -428,10 +428,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 130fd25abca20364594da76aff1fda1c
+    spriteID: 6a516ed8b6582414d97e9790b087a6ba
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_30
+  - name: Walls2_30
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -442,10 +442,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: a1947d5c4b904a642a66e80e4305b3ee
+    spriteID: e0d8fa009c4cdd24395e20d89d268a4a
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_31
+  - name: Walls2_31
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -456,10 +456,10 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 24a522f82a087154a9948bd23625a9d7
+    spriteID: 9e5ebbfb94817bb40a9f38e2386929ee
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_32
+  - name: Walls2_32
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -470,10 +470,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 7df2f3e2fc8e43747a4a3b86588e77dc
+    spriteID: 4ceae3cb418d73943b4bc16a2699aa90
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_33
+  - name: Walls2_33
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -484,10 +484,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: b520172616f99bc49b204902c966a7f9
+    spriteID: b8f8b5cae4e4dcd428e0119591c14279
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_34
+  - name: Walls2_34
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -498,10 +498,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 0221c69170aef3748ac9211aa8b6c2b3
+    spriteID: 0fa547b6d319faa468e4f57ed40b6760
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_35
+  - name: Walls2_35
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -512,10 +512,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 810dac01d87257e45a658c85b7b13286
+    spriteID: f7ddab1af8957db47bde886b10624b7e
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_36
+  - name: Walls2_36
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -526,10 +526,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 9f3bce650f7d158449fc0c58282ca695
+    spriteID: 5b532396d0de5b545a8c682d6be24f4a
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_37
+  - name: Walls2_37
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -540,10 +540,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: fd4e13895b33de44194f611c97fe7f0b
+    spriteID: 9a0d9f04d06ccf840be389e46191b2c4
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_38
+  - name: Walls2_38
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -554,10 +554,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 7b41e2089dd3a5446b6ab2139431d89d
+    spriteID: aa136c822ff992840b5e1e008ec9df82
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_39
+  - name: Walls2_39
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -568,10 +568,10 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 990b2f815aa6b7c4da00857abcf43204
+    spriteID: e89791215cee72343bea061ab2e55b74
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_40
+  - name: Walls2_40
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -582,10 +582,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 165f6c1708fbb8644b40f6c89adb9839
+    spriteID: 6f964ad2577dd6c4698829fc4933af92
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_41
+  - name: Walls2_41
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -596,10 +596,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: e1ac907472cd00a4ebba5bdef94f9fd7
+    spriteID: a5f2eda8ffa5ac54290e2f7236bea46c
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_42
+  - name: Walls2_42
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -610,10 +610,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 90221d43d0b21284b9fc4a19c2c96f8c
+    spriteID: 664a2cb60b7fba649aa65d6234cddbe9
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_43
+  - name: Walls2_43
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -624,10 +624,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 62865621000094b43aec1f11ab3353cd
+    spriteID: 83a299360a608a04e9ec7e8bba59efb1
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_44
+  - name: Walls2_44
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -638,10 +638,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 24187ec337893df47b8dcfc1f2b94657
+    spriteID: 539e8211aa8a5484f93a58e95081d8e2
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_45
+  - name: Walls2_45
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -652,10 +652,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 1c57f73a0ac874e4ea647dc2a6b50ed8
+    spriteID: e5ae236fe94e403449b5d6f8b7e3e227
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_46
+  - name: Walls2_46
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -666,10 +666,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: e55f5b05894c46d428934cd6894389d4
+    spriteID: 0d681c7b33f3be641ac932b0fad890c0
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_47
+  - name: Walls2_47
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -680,10 +680,10 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 4dcf6f5ccc2bff048872206e63c04b7e
+    spriteID: e421a4fde36a1e04f8e33d90dd6b03ff
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_48
+  - name: Walls2_48
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -694,10 +694,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 746283bba76c7144e9944fb434f5715b
+    spriteID: 479c61bc83223c84390bda9ab17f2d24
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_49
+  - name: Walls2_49
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -708,10 +708,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: e2a61e43fab28b043b3c08a5ef5508fc
+    spriteID: d5337545115d22745ac7be2639c23499
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_50
+  - name: Walls2_50
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -722,10 +722,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 4a78c9e0969815549b068005dc5d4c8d
+    spriteID: 13dd213167e3ac841978cc16eaf6186c
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_51
+  - name: Walls2_51
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -736,10 +736,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: beca7f118b2663f42bc38fa8726d864f
+    spriteID: 3b445acd8701a2d4f88ecca8fe83415e
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_52
+  - name: Walls2_52
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -750,10 +750,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 778b263c67b9bc64bbeecb7b904c64a6
+    spriteID: d7c519271f3a99a41a5db42f4bb846e0
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_53
+  - name: Walls2_53
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -764,10 +764,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 7c43688198573d545b8ca08280cfcd78
+    spriteID: 62191d798917d6848918cc0c019269bb
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_54
+  - name: Walls2_54
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -778,10 +778,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 3ff70168623570e4c9d6e27c81863f8f
+    spriteID: 37ed0c0945c04294dbd498f0e0bd5247
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_55
+  - name: Walls2_55
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -792,10 +792,10 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 7f4d7dc0009fd444285e791a206ce98e
+    spriteID: 82ab5995a3789344b94bfaa6aeed0439
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_56
+  - name: Walls2_56
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -806,10 +806,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: d02a438357098984c877ba855a2f3ac1
+    spriteID: 20788126f923a564889185e1b293366c
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_57
+  - name: Walls2_57
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -820,10 +820,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 5a634840241aebf43a2a0a58615bf5cb
+    spriteID: 2978f80a64c9d9d4eb5e32b09e94d8df
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_58
+  - name: Walls2_58
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -834,10 +834,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 621cdaa33a2d6eb429d9748dd160293e
+    spriteID: b2f5f01c800ce1f42bc6560b83541b33
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_59
+  - name: Walls2_59
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -848,10 +848,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 6fb000ccbbabdbd4489793dd9d793c60
+    spriteID: c871fcb436c4a9844a3d12e267613e40
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_60
+  - name: Walls2_60
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -862,10 +862,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 77f5678d83525a4418c1dcc79915997a
+    spriteID: 760a301896fffca4281d2ecdce643d6f
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_61
+  - name: Walls2_61
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -876,10 +876,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 51c561ca76295564a955db3e4a26406c
+    spriteID: 8a287e5c5cca57e43b4adffe64a51223
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_62
+  - name: Walls2_62
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -890,10 +890,10 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: d097e7c473489f347b0b7d1d119b3cfb
+    spriteID: 2506883f9cfcfcd47bd99e3cbe985150
     spriteOutline: []
     tessellationDetail: 0
-  - name: Walls_63
+  - name: Walls2_63
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -904,7 +904,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: f42e7df87011bd548abb03701b1804a7
+    spriteID: fdee1d28b116a93498a71e361728823d
     spriteOutline: []
     tessellationDetail: 0
   _secondaryTextures: []

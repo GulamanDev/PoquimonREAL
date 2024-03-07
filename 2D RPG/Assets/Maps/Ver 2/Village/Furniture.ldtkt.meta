@@ -1,0 +1,2926 @@
+fileFormatVersion: 2
+guid: 9bf30efc6a8842f40b2ae4d313a7503d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Furniture_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 63f053c53fece2a43b4a933bfc60ade6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e1834c59b2a3f8349af1949148727877
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 67a73c92a579d7d4c83ebb962a22fdbb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: a0ed5b0ef834cda458f6d7b82fffa186
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 7d1b51eddd2437246b599f5d4285abab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 7c6518779ceba054196de7149bf3f316
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: eb99cfa5c70a27a4da57e8d5ec2069b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 687dea4a4e4c78241a7b19849e5c9401
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: d79b8aa49870b984d94169c3ca8ae08a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 612dee228a0e1b743a729a346e66c969
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 400c5902d3c7a2946ab9a8782ba694f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 04d7b0272635987468e9d6048a8b74d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 3226a0302b9ec9a4ea314ab0d2bee61a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: b6fb424afd0860d489d444b74d7c2ec8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c6b05e7156863f24bb5ba3277414cff6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 8ba019ca2f9d92141ac8e154b24b086f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f6c3642dcfbcd09458aa690b9dc6a654
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8b041b1c33c4ee9408fbe1c00c24d8aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 186a42edf47497f439d518ad5061c6a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 9a95ac32f9e3ad54f8120240b54f681b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d66e3ef9bf3f64141a251c59267e4490
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: c7e20fb87bca1fa4eadbaa3d749d0d4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ea561afa2017fd44eacfc449ed67c8ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 96b1a64bf83fb6241adbde5b938b2b36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 7f96eca4597020e46b693c006e88b281
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: cf5a4c4e4d9490a478b4d73ef55eed1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a34bc67123f9e0d4caada56d6951dc31
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8fa8e58b212213d4daccfd850ab15350
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f1d21e54d9c92c64abd99e22c16e2f3f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a3bcf71b276095c47ab53efe94def520
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 50cd88d60eaa6b847ac0e5afcfd87e0d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b2440f2bb04034044ad5f90ca7e6fd18
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 738cd33b84cb8e346bf05eb187dc63bc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b301be0ce408cf546a998f75405542fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 4a584e488aa4865459601702e2e62902
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5781d37c943ba3c46856b3df6a3d5718
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b53141d30e4f4ed4292fbcf677dc6400
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: d01ab87a27fff1e4cae2d6de10a5b0ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 75f8481ea1dda524cb352ed131732481
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 012647f60eaa0644f9999e78715b4a6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 7219de9aab31f9b43923ccc6078bfd95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ba050681cfdf30e42be395c7c5a76240
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 36daabaffd77aa548870e76c1d3247c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 996cb53dd65d51148acdf75a0dc61316
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 26dc28eb06007a44dbee6cadfcdb6d44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: f9435adeca91d6d49bde4294a038689b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 8a3d202b8414c0f478a9d1b27e96c6a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: dbea34613ad3fa94db6bb436d5b7c706
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a6b65ab411c6da149a685a59a36b69ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 58a41ce92e6bbbd4096be0fc904dbc2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 3679325dd159a934f9a9118eaece4dff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 87f356c46f7896b4e95b07a95b3be0f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e4a1139c310f9184a8ef1bc16809a355
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 9fecd94ff42e8554dbd24454f77141d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c6ca2a27d0b451c4faa5cb8f6e28d784
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4d76c361a9b7c4849a5096bec48ae286
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: acd923c93a7d7a943aefac5e0c946fee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e79e3e31fb90f7643b1c091b20c77ed7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b7c84f80c9032364a843a6a8bf90f507
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 5e2e6a4011d7a554893688b311ec0856
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c1385e6dce4abdc4ca947232929dc314
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 98f4b84a71838f046954170b0a7e4512
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a00de9416393ed84ca234784a879f9e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: cfbc8b1380f72944e9dab12ac69c20df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3d6edbb54a76b7842ab4c841486e7e3e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b02a0f61a194fa34ab56e0a45e98a09b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 877427a2cafb0fe429abff4e5b5da8bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 64d7bc6db2d74464a8fb3cb9d5399830
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3c6267cd664569449bdcad53105cf69b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ece674af0b5245a46ae6bc9bb90804df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 17b4447028eab3140811d682b4f79132
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ff2ca0b50ddccdc4dac57bd33754a46b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3f636a71975fda84b8eab58bf343e9f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 924ea29e0f355b146ac11c0d58c425d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 826183a021d9d3a4893dec89d6959986
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: fbaa8164e03ceb3479aef1566b1a7af7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: be030ec3989447540aa15e9b312d3c74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 0c6e2c2b699132f46b884e100b299d06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e38bd4063ff89b940b74e4797d3be7cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: bf64f4dc331a44c4e84aaec87fffbcb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c5dacbaebd6041e48bb20aa511b62f2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6c01980e1eec3084f893802613b424c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 04af415924b2127479ec5739067fa1be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c76aca9d55f9cdd4982a6d18a7181ed2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 771668576c0b884418edc8dcc90a93ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2fc650d8683eba14e830f7b616477e44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 55460b92cc2141f4eb4037ca6579bd26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e8f734b3d8cb9484fac398ea3a801a43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d2c3bef31f65d0048bb9934bb1cb468d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e2da160791a9d6946a5ac66832d7edf0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1d2a8365b42008742a4414b135a42450
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a6bd13daf3cbefb46890ac09d93a32cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6fd0ce37c47e0794e9a42785df30c728
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5bb82545490a6744f960aa02cf282522
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b87841af716505342ad4c6b4530dd520
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 58c0c5cc93ae8984a8ca66612ea6883d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fa904dab83b5b92449f9d7e21a9bd4b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 38f3494d7a9accc459fee8f68c60947c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5918ec4ce1dba264096bbc534fef90a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ec158ccd26fcd7b4498e87933cc23732
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 28549d1a5131ad9448904b4e4492f941
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4a552b440aecfca4ebdf0da83281defc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d13aaaaf7b9785849b8b3b84fd94dc39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6397aabd5d61f104393d65b9c9554029
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1e4d16a78915e534fb930a0656d3af1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: cacfd76e3b1560f47884af1d364d3319
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c5d19ee3cfeece64dac99a36c8ca4f7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 26ff7c5d14277f54794713d875443412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0686403aedff4194792f61ffe3b1617d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: edc9e8578efc6e34b9343a33c7075a78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7f42ef4b85773914fa7e54f8ba8580bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f3a1206d7df99f5438ef1eba1851a2e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c7a8c11e1f25f23458ed31fe49b43b47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c01a88ea680bbbf4c85b9b1a57f44bc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 95ffc313f7e991544b0fad41259d429a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 52deccdef3e25874e9cf6e6a5980b270
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 638e8dc547026e949a8eee08c1907e6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2509aeb8f905e0048a1f77237fee85fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: cc1038a6369557a40a81407687b5ee0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 84e549bb061bffe4795de9e50c984a47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6a7b856a8da52a449bb95ceb721650db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4d8e1dad0ddbfa74d9eb2cf09e5865e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 917bc5664c6998b46a5c89f22ccf5391
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: cad4a7a7dc2fbad47b5a32a050db21c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 968781a938e7fa643b734faccbe27e1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f7aa01ca667b49745881e92bac5676e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 06a094bfbc700f6489c195b1892a0689
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bf151b4a96438cc42bdedc1b3c4258c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 27457e0e5dd934b4f81ccb21c79f8000
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8075bd9407f189a4f8993825fb465f96
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6c405fb78aec1774f8b8bb5c32bf703d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9b7f98ef1539ca44a8b38255a2ede5f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 5d593f6e6940bea4f87ee10edf1d7963
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 02950e6fe4e51c849af49f06b2ed08e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f2b70aab96372bf499bbbb84f0b12870
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 500aafc7bca1e5141a4436259a384375
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 84f509f07b013194b88054122158211d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 41b4c9fdd5fdf474ca3b8cfc8b3cd212
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8375168d16b46ae419c0e8c8b1575e84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0d5fb6f745b60ce42817855fe33eb5c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ee5694a62f4068a46bcdcbc4db3ea5d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3a2c77136d9bd6f47afe850840a5dc4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 96a80b4e5765fb846ad686d2d87718f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 87ed7c26873598b4dbc83994242f6861
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8a2967395c5a963458461b6935f6d0a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 62933a04897f26146baf18548b615393
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 79bfe967313923d48bcade4530306f9d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d339c040d951f8546918fd1693194801
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7212d2e320dd8fc40bdfeb43243abc25
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 61693c00c215551458034eec12fba964
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 4b3e29e9dd39a9f4393690dd095a764f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 265b0426de18b6640858191358473a28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 4af314d224adadd449c97f4721180528
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c5675b682dd275e42914e8d624c2c882
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d6c6915f9873e55419ba5e2367d8dbf8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 09ebcb4616182cd46a13727406024e56
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c9b1cd5a42eb6224a9426e9b8cf2a77f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 93f9a5fc2458744419ccbd560ef270b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 921997b0bb1c3a740b84d39c5e031867
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 98c5ce8b71fcb3d4f8d8980372b52e4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 583cfd521302ccf4fa1a4a1a70ff91ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ed6af06215ae61c4496fe8eece808c23
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3b76549562d4abb4e8f3d35a0d0526b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4103666cd88bde845ac80d65e11d60c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d1a86e321ef956a448fa8ad49d4505d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: df7020cb56692b743885cf0786048187
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2b3c1d3a64a1d634b92698206252030a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 785dbac4994ea9a4e84b361f239f327f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6ac6de87a1af4d04f9404f31326e9ddc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3d2945672ebb1144a89838911b48f1a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c58f05ecab10982458138bdbb3b2386a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 1bf40734ee78af644a88f1df2331a59e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: aa2007a5d73517c4dbb17a314191d9f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7b95b38c3de5ed4418822ed1fd66edf7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2629bdcd7a09bee46a50a44ae7598ef8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e7cf1892a3a35b9449061363fd54837b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ce3d5c429417537438cf6f9e8587b693
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a36b3cb444e66644bbd1ae69cc3936fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8bdd330f949efae41855e93f5680e085
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e8a56add0468ebe4fbb0b238dfc337e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d5a526aa44de49e4ca2f297578fe2e9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ab46480ed162fd94bb42fffce16357f4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 1823b011432d2c942849b72de080088a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e7b5d781825dd3447bf3707763a67dca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3326b777b519f3c4cbadcd7b97424c26
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 846c90d5a5a92734084e944cbf8b86b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b44097d52ff5d6d4f917205ddbcf843e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8a855d0bac8b567488f10aa8fdef24df
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fe1ea3c774bd5864b8c9f91fcf2b6ac6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3b4316707ecf0474e9c93f3c35f4703a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: cca5dd328ed26844d8ef2388806a5ec0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3b66d67f1fc3afd4db4b2a491f1023be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: bfe7133e963a18049bdf1fcfbfb808ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a67e57e4e7c068743949191403b11726
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c3ae19601774fd14e93d8627249b8376
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 441f9061473f7584d88bd211168241be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: db1b7868fcbb2db4f944d4ad1c319703
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6b5df2b1839b1c34ebf51a2cf319f9a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f9d6407a49d198c4b8da11cefeff5628
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9ffdd6e0e76d8af489e53fea873bc1d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: af9329fa4465fb04bbacb0af7440f3da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 250fd153e891a154d8307bfed3295a71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: dcfba287294054943ad8a687b027a296
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a528ad9d4c547c4458f18886c60683bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8ac445163e5f47b4bb52620fbe252917
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 94b7c76f070216747b1168dacf14c393
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 27a276d42c7658241be126e6b15afbe0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Furniture_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b09eef4eb81694142842f6c5d257ee42
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []

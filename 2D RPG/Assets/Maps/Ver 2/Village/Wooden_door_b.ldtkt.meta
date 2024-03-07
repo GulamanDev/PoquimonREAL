@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c20c067c07d487e40b38d05920ff61d2
+guid: d6318aeba5162f14dbcd2533d301a6c9
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -11,7 +11,7 @@ ScriptedImporter:
   _reimportOnDependencyChange: 1
   _pixelsPerUnit: 16
   _sprites:
-  - name: Wooden_0
+  - name: Wooden_door_b_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -22,7 +22,21 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 306064af333f2314b99e090dfe89884b
+    spriteID: dac1a261ead33ac43a45f185a16a0769
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Wooden_door_b_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cf1037f52b177da4780b4f0ad7abd6c6
     spriteOutline: []
     tessellationDetail: 0
   _secondaryTextures: []
