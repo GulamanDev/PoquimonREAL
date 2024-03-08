@@ -23,9 +23,13 @@ public class BattleSystem : MonoBehaviour
     }
 
     void SetupBattle()
-    {
-        Instantiate(playerPrefab, playerBattleStation);
-        Instantiate(enemyPrefab, enemyBattleStation);
-    }
+{
+    GameObject playerObject = Instantiate(playerPrefab, playerBattleStation.position, Quaternion.identity);
+    GameObject enemyObject = Instantiate(enemyPrefab, enemyBattleStation.position, Quaternion.identity);
+
+    // Set the parent to ensure proper hierarchy
+    playerObject.transform.SetParent(playerBattleStation);
+    enemyObject.transform.SetParent(enemyBattleStation);
+}
 
 }
