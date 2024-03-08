@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286444444041549413}
   - component: {fileID: 7361567075433716559}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Charzard_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3241050476125367843}
   - component: {fileID: 2902798928522327640}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
