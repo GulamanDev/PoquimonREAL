@@ -2,13 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Pokemon", menuName = "Pokemon/Create a new pokemon")]
 public class PokemonBase : ScriptableObject
 {
-    [SerializeField] string name;
-
-    [TextArea]
-    [SerializeField] string description;
+    [SerializeField] string Bulbasaur;
 
     [SerializeField] string frontSprite;
     [SerializeField] string backSprite;
@@ -18,22 +14,16 @@ public class PokemonBase : ScriptableObject
 
 
     //Base Stats
-    [SerializeField] int maxHP;
-    [SerializeField] int attack;
-    [SerializeField] int defense;
-    [SerializeField] int spAttack;
-    [SerializeField] int spDefense;
-    [SerializeField] int speed;
+    [SerializeField] int maxHP = 45;
+    [SerializeField] int attack = 49;
+    [SerializeField] int defense = 49;
+    [SerializeField] int speed = 45;
 
     public string Name
     {
-        get { return name; }
+        get { return Bulbasaur; }
     }
 
-    public string Description
-    {
-        get { return description; }
-    }
  
     public int MaxHP
     {
@@ -48,16 +38,6 @@ public class PokemonBase : ScriptableObject
     public int Defense
     {
         get { return defense; }
-    }
-
-    public int SPAttack
-    {
-        get { return spAttack; }
-    }
-
-    public int SPDefense
-    {
-        get { return spDefense; }
     }
 
     public int Speed

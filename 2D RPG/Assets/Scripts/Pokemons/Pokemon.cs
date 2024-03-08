@@ -23,16 +23,6 @@ public class Pokemon
         get { return Mathf.FloorToInt((_base.Defense * level) / 100f) + 5; }
     }
 
-    public int SPAttack
-    {
-        get { return Mathf.FloorToInt((_base.SPAttack * level) / 100f) + 5; }
-    }
-
-    public int SPDefense
-    {
-        get { return Mathf.FloorToInt((_base.SPDefense * level) / 100f) + 5; }
-    }
-
     public int Speed
     {
         get { return Mathf.FloorToInt((_base.Speed * level) / 100f) + 5; }

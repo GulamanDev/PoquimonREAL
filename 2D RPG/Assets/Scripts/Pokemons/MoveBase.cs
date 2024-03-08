@@ -7,9 +7,6 @@ public class MoveBase : ScriptableObject
 {
     [SerializeField] string name;
 
-    [TextArea]
-    [SerializeField] string description;
-
     [SerializeField] PokemonType type;
     [SerializeField] int power;
     [SerializeField] int accuracy;
