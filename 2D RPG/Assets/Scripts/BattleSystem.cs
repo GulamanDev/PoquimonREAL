@@ -24,12 +24,19 @@ public class BattleSystem : MonoBehaviour
 
     void SetupBattle()
 {
+    void SetupBattle()
+{
     GameObject playerObject = Instantiate(playerPrefab, playerBattleStation.position, Quaternion.identity);
     GameObject enemyObject = Instantiate(enemyPrefab, enemyBattleStation.position, Quaternion.identity);
 
     // Set the parent to ensure proper hierarchy
     playerObject.transform.SetParent(playerBattleStation);
     enemyObject.transform.SetParent(enemyBattleStation);
+
+    // Set the local position to the center of the battle station
+    playerObject.transform.localPosition = Vector3.zero;
+    enemyObject.transform.localPosition = Vector3.zero;
+}
 }
 
 }
