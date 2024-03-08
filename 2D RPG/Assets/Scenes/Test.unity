@@ -912,7 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520677703}
   - component: {fileID: 520677702}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PlayerBattleStation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803255853}
   - component: {fileID: 803255852}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EnemyBattleStation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
