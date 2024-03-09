@@ -1,35 +1,80 @@
-using System.Collections;
-using System.Collections.Generic;
+// DialogManager.cs
 using UnityEngine;
-using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class DialogManager : MonoBehaviour
 {
-   [SerializeField] GameObject dialogBox;
-   [SerializeField] Text dialogText;
-   [SerializeField] int lettersPerSecond;
+    public DialogBox dialogBox;
+    public InteractPrompt interactPrompt;
+    public KeyCode interactKey = KeyCode.E;
+    public KeyCode nextLineKey = KeyCode.Mouse0; // Left mouse button
 
-   public static DialogManager Instance { get; private set; }
-   private void Awake()
-   {
-    Instance = this;
-   }
+    private List<string> dialogLines = new List<string>();
+    private int currentLineIndex = 0;
 
-   public void ShowDialog(Dialog dialog)
-   {
-    dialogBox.SetActive(true);
-    StartCoroutine(TypeDialog(dialog.Lines[0]));
-   }
-
-
-
-   public IEnumerator TypeDialog(string line)
-   {
-    dialogText.text = "";
-    foreach (var letter in line.ToCharArray())
+    private void Start()
     {
-        dialogText.text += letter;
-        yield return new WaitForSeconds(1f / lettersPerSecond);
+        // Add your dialog lines here
+        dialogLines.Add("Hello, this is the first line.");
+        dialogLines.Add("This is the second line.");
+        dialogLines.Add("And here's the third line.");
     }
-   }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            interactPrompt.ShowPrompt("Press E to interact");
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            interactPrompt.HidePrompt();
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(interactKey) && interactPrompt.gameObject.activeSelf)
+        {
+            // Start the dialogue when the player presses the interact key
+            StartDialog();
+        }
+
+        // Check for left mouse button press to proceed to the next line
+        if (Input.GetKeyDown(nextLineKey) && dialogBox.gameObject.activeSelf)
+        {
+            NextLine();
+        }
+    }
+
+    private void StartDialog()
+    {
+        // Reset the line index
+        currentLineIndex = 0;
+
+        // Show the dialog box with the first line
+        dialogBox.ShowDialog(dialogLines[currentLineIndex]);
+    }
+
+    private void NextLine()
+    {
+        // Increment the line index
+        currentLineIndex++;
+
+        // Check if there are more lines
+        if (currentLineIndex < dialogLines.Count)
+        {
+            // Show the next line
+            dialogBox.ShowDialog(dialogLines[currentLineIndex]);
+        }
+        else
+        {
+            // Hide the dialog box when all lines are displayed
+            dialogBox.HideDialog();
+        }
+    }
 }
