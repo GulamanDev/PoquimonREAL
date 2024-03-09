@@ -15,9 +15,10 @@ public class DialogManager : MonoBehaviour
     private void Start()
     {
         // Add your dialog lines here
-        dialogLines.Add("Hello, this is the first line.");
-        dialogLines.Add("This is the second line.");
-        dialogLines.Add("And here's the third line.");
+        dialogLines.Add("Get yourself out there. Here's a Charmander.");
+        dialogLines.Add("Kill some pest Bulbasaurs in the field...");
+        dialogLines.Add("Get the corpses to the old lady that lives North");
+        dialogLines.Add("Don't come back here until you did all of that!");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

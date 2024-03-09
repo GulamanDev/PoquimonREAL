@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: -4502197278953995948, guid: 1223af044ff84714aa32e09825d41f99, type: 3}
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
-      objectReference: {fileID: 198380320}
+      objectReference: {fileID: 0}
     - target: {fileID: -3968044760500153905, guid: 1223af044ff84714aa32e09825d41f99, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1
@@ -350,11 +350,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6326339127472285303, guid: 1223af044ff84714aa32e09825d41f99, type: 3}
   m_PrefabInstance: {fileID: 198380317}
   m_PrefabAsset: {fileID: 0}
---- !u!19719996 &198380320 stripped
-TilemapCollider2D:
-  m_CorrespondingSourceObject: {fileID: -7330470104460900732, guid: 1223af044ff84714aa32e09825d41f99, type: 3}
-  m_PrefabInstance: {fileID: 198380317}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &198380321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4994227485657439157, guid: 1223af044ff84714aa32e09825d41f99, type: 3}
@@ -480,11 +475,11 @@ PrefabInstance:
       objectReference: {fileID: 1624725454}
     - target: {fileID: 2772261094373377244, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.75968
+      value: 0.00089645386
       objectReference: {fileID: 0}
     - target: {fileID: 2772261094373377244, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.5427303
+      value: 6.5425205
       objectReference: {fileID: 0}
     - target: {fileID: 4422168025164477782, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_Name
@@ -771,7 +766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d8ac953f8bee54681762b3fc741bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 0
+  nextSceneName: Village - Start
 --- !u!1 &1106532428
 GameObject:
   m_ObjectHideFlags: 0

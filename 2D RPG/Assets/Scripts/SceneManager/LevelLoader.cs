@@ -1,37 +1,52 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public int sceneBuildIndex;
-    public string PlayerExitPos;
+    public string nextSceneName; // Name of the next scene
 
     private void OnTriggerEnter2D(Collider2D collision)
-    { 
-    if (collision.CompareTag("Player")) // Check if colliding with player
+    {
+        if (collision.CompareTag("Player"))
         {
             print("Moving to next scene...");
 
-            // Load the scene and find the corresponding entry point
-            
-            GameObject entryPoint = GameObject.Find("PlayerExitPos");
+            // Save the player's current position
+            Vector2 playerExitPoint = collision.transform.position;
 
-            // If entry point found, teleport player there
-            if (entryPoint != null)
-            {
-                GameObject player = GameObject.FindWithTag("Player"); // Find player GameObject
-                player.transform.position = entryPoint.transform.position;
-            }
-            else
-            {
-                Debug.LogError("No entry point found: " + PlayerExitPos); // Log error if entry point not found
-            }
-            
-            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+            // Load the next scene asynchronously
+            StartCoroutine(LoadNextSceneAsync(playerExitPoint));
         }
     }
 
-}
+    private IEnumerator LoadNextSceneAsync(Vector2 playerExitPoint)
+    {
+        // Load the next scene asynchronously
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(nextSceneName, LoadSceneMode.Single);
 
+        // Wait until the next scene is fully loaded
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        // Set the player's position in the new scene
+        SetPlayerPosition(playerExitPoint);
+    }
+
+    private void SetPlayerPosition(Vector2 playerExitPoint)
+    {
+        GameObject player = GameObject.FindWithTag("Player");
+
+        // If player found, teleport player to the saved position
+        if (player != null)
+        {
+            player.transform.position = playerExitPoint;
+        }
+        else
+        {
+            Debug.LogError("Player not found in the new scene.");
+        }
+    }
+}
