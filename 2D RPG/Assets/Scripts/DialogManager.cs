@@ -9,6 +9,8 @@ public class DialogManager : MonoBehaviour
     public KeyCode interactKey = KeyCode.E;
     public KeyCode nextLineKey = KeyCode.Mouse0; // Left mouse button
 
+    public GameObject questLock;
+
     private List<string> dialogLines = new List<string>();
     private int currentLineIndex = 0;
 
@@ -41,6 +43,9 @@ public class DialogManager : MonoBehaviour
     {
         if (Input.GetKeyDown(interactKey) && interactPrompt.gameObject.activeSelf)
         {
+            //  Unchecks the Quest Lock gameobject
+            questLock.GetComponent<EdgeCollider2D>().enabled = false;
+
             // Start the dialogue when the player presses the interact key
             StartDialog();
         }

@@ -475,7 +475,7 @@ PrefabInstance:
       objectReference: {fileID: 1624725454}
     - target: {fileID: 2772261094373377244, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00089645386
+      value: 0.0008945465
       objectReference: {fileID: 0}
     - target: {fileID: 2772261094373377244, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -544,6 +544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792837884}
   - component: {fileID: 792837885}
+  - component: {fileID: 792837886}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -595,7 +596,7 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -607,6 +608,19 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &792837886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792837883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d8ac953f8bee54681762b3fc741bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneBuildIndex: 2
 --- !u!1 &982473438
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,7 +780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d8ac953f8bee54681762b3fc741bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Village - Start
+  sceneBuildIndex: 0
 --- !u!1 &1106532428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,8 +1065,8 @@ EdgeCollider2D:
   - {x: 15.83004, y: 37.701675}
   - {x: 15.812172, y: 35.01855}
   - {x: 3.4273968, y: 35.05218}
-  - {x: 3.4059944, y: 23.842813}
-  - {x: -19.04233, y: 23.919493}
+  - {x: 3.5475883, y: 22.71005}
+  - {x: -18.90203, y: 22.726938}
   - {x: -19.048517, y: 11.7742605}
   - {x: -12.933169, y: 11.781736}
   - {x: -12.966462, y: 7.984497}

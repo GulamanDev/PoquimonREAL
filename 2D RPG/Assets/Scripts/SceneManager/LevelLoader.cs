@@ -1,20 +1,46 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public string nextSceneName; // Name of the next scene
+    //  You can see the build index numbers sa Build Settings
+    //  This is more organised since you can reference it by number instead of looking for their names
+    //  Also good for future-proofing scenes
+    public int sceneBuildIndex;
 
     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        print("Trigger entered.");
+
+        if (collision.tag == "Player")
+        {
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+        }
+    }
+
+
+}
+
+//  SORRY, my brain stopped functioning and decided to reset the level loader script
+//  instead of trying to understand what's happening
+/*    //  For future reference, can be changed to public int sceneBuildIndex
+    //  Used instead of string nextSceneName in case you plan on regularly changing
+    //  scene names.
+    public string nextSceneName; // Name of the next scene*/
+
+
+
+/*    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             print("Moving to next scene...");
-
+*//*
             // Save the player's current position
             Vector2 playerExitPoint = collision.transform.position;
-
+*//*
             // Load the next scene asynchronously
             StartCoroutine(LoadNextSceneAsync(playerExitPoint));
         }
@@ -49,4 +75,4 @@ public class LevelLoader : MonoBehaviour
             Debug.LogError("Player not found in the new scene.");
         }
     }
-}
+}*/

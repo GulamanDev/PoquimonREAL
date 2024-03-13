@@ -188,7 +188,8 @@ Transform:
   m_LocalPosition: {x: 5.1915855, y: 19.985468, z: 0.22950101}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 248479574}
   m_Father: {fileID: 11229085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &72644519
@@ -248,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d8ac953f8bee54681762b3fc741bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Village - Quest
+  sceneBuildIndex: 1
 --- !u!1 &125918116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3147642074183968008, guid: aabdb63aefb387647859abedf27e887c, type: 3}
@@ -292,6 +293,83 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &248479573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248479574}
+  - component: {fileID: 248479575}
+  m_Layer: 0
+  m_Name: spawner
+  m_TagString: Spawnpoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248479574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248479573}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.3, y: 4.33, z: 2.734822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 72644518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &248479575
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248479573}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12226391, y: 0.2778738}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8673115, y: 1.4445981}
+  m_EdgeRadius: 0
 --- !u!1 &338717028
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,12 +799,12 @@ GameObject:
   - component: {fileID: 851752433}
   - component: {fileID: 851752434}
   m_Layer: 0
-  m_Name: Quest Locked
+  m_Name: Quest Lock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &851752433
 Transform:
   m_ObjectHideFlags: 0
@@ -932,6 +1010,7 @@ MonoBehaviour:
   interactPrompt: {fileID: 514117163}
   interactKey: 101
   nextLineKey: 323
+  questLock: {fileID: 851752432}
 --- !u!19719996 &978591059 stripped
 TilemapCollider2D:
   m_CorrespondingSourceObject: {fileID: -2387887943466791210, guid: aabdb63aefb387647859abedf27e887c, type: 3}
@@ -2547,8 +2626,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1547442384}
   m_Layer: 0
-  m_Name: PlayerExitPos
-  m_TagString: Untagged
+  m_Name: Quest Exit
+  m_TagString: Quest Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2562,7 +2641,7 @@ Transform:
   m_GameObject: {fileID: 1547442383}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.072453, y: -19.578527, z: -4.3108964}
+  m_LocalPosition: {x: 11.31, y: -19.578527, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2734,7 +2813,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1840275532
 Transform:
   m_ObjectHideFlags: 0
@@ -2762,7 +2841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d8ac953f8bee54681762b3fc741bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: House - Home
+  sceneBuildIndex: 2
 --- !u!61 &1840275534
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2918,7 +2997,7 @@ PrefabInstance:
       objectReference: {fileID: 1060686542}
     - target: {fileID: 2772261094373377244, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00090026855
+      value: 0.00089263916
       objectReference: {fileID: 0}
     - target: {fileID: 2772261094373377244, guid: 8935fb36531bed240bd39dc1aa6a7d0c, type: 3}
       propertyPath: m_LocalPosition.y
