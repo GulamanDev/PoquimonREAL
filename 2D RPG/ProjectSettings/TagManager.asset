@@ -4,9 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - House Exit
+  - Forest Enter
+  - Village Enter
+  - Home Enter
+  - Home Exit
+  - Village
+  - Forest
+  - Home
   - Quest Exit
-  - Spawnpoint
+  - PersistentData
   layers:
   - Default
   - TransparentFX
