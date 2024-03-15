@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class PlayerSpawner : MonoBehaviour
 {
-    private Vector3 spawnPoint;
+    private static Vector3 spawnPoint;
+
+    private void Start()
+    {
+        transform.position = spawnPoint;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Spawnpoint") 
         {
-            transform.position = spawnPoint;
-            
+            spawnPoint = transform.position;
         }
-        spawnPoint = transform.position;
     }
 }
