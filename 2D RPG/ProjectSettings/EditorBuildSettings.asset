@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Village2.unity
     guid: cb9dfc32487035c4c872372746d15aeb
   - enabled: 1
+    path: Assets/Scenes/ForestBattle.unity
+    guid: 8f9ced2701b46954fae5f3178c3ebe7a
+  - enabled: 1
     path: Assets/Scenes/Forest1.unity
     guid: 0faab6e9aaff12c47ba7744fa91f1e3a
   - enabled: 1
@@ -20,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 4cf28f9d63c76f446870f49867cd57df
+  - enabled: 1
+    path: Assets/Scenes/Combat.unity
+    guid: 1cf57530cf6dbc849bc79f64e5175979
   m_configObjects: {}

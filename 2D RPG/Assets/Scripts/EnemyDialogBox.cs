@@ -45,7 +45,7 @@ public class EnemyDialogBox : MonoBehaviour
         dialogBox.ShowDialog(dialogLines[currentLineIndex]);
     }
 
-    private void NextLine()
+    public void NextLine()
     {
         // Increment the line index
         currentLineIndex++;

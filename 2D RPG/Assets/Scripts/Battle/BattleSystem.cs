@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public enum BattleState { NONE, START, PLAYERTURN, ENEMYTURN, WON, LOST }
@@ -23,6 +24,8 @@ public class BattleSystem : MonoBehaviour
     public BattleHUD enemyHUD;
 
     public BattleState state;
+
+    public int sceneBuildIndex;
 
     void Start()
     {
@@ -143,6 +146,7 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "You were defeated.";
         }
+        SceneManager.LoadScene("Forest1", LoadSceneMode.Single);
     }
 
     void PlayerTurn()

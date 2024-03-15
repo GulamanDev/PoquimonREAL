@@ -13,6 +13,7 @@ TagManager:
   - Home
   - Quest Exit
   - PersistentData
+  - Enemy
   layers:
   - Default
   - TransparentFX
