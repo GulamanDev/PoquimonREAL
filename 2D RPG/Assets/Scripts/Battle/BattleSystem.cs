@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
+public enum BattleState { NONE, START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
 public class BattleSystem : MonoBehaviour
 {
@@ -27,6 +27,41 @@ public class BattleSystem : MonoBehaviour
     {
         state = BattleState.START;
         StartCoroutine(SetupBattle());
+    }
+    
+    void Update()
+    {
+        // Check if state is NONE and call NoneState function
+        if (state == BattleState.NONE)
+        {
+            NoneState();
+        }
+    }
+
+    void NoneState()
+    {
+        Debug.Log("Game is in the NONE state."); 
+    }
+
+    public void HandleUpdate()
+    {
+        // Check the current battle state and perform appropriate actions
+        switch (state)
+        {
+            case BattleState.PLAYERTURN:
+                // Handle player's turn
+                break;
+            case BattleState.ENEMYTURN:
+                // Handle enemy's turn
+                break;
+            case BattleState.WON:
+                // Handle battle won state
+                break;
+            case BattleState.LOST:
+                // Handle battle lost state
+                break;
+            // Add additional cases for other states as needed
+        }
     }
 
     IEnumerator SetupBattle()
