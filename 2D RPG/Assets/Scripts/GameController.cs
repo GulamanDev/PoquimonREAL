@@ -1,3 +1,8 @@
+// Make A Game Like Pokemon in Unity | #12 - Starting and Ending Battles
+// https://www.youtube.com/watch?v=R9XMOEFne7w&list=PLLf84Zj7U26kfPQ00JVI2nIoozuPkykDX&index=12
+
+
+/*using System.Reflection.Metadata;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,48 +11,45 @@ public enum GameState { FreeRoam, Battle }
 
 public class GameController : MonoBehaviour
 {
+    [SerializeField] PlayerController playerController;
     [SerializeField] BattleSystem battleSystem;
     [SerializeField] Camera worldCamera;
 
-    GameState gameState;
-    BattleState battleState;
+    GameState state;
 
     private void Start()
     {
-        gameState = GameState.FreeRoam;
-        battleState = BattleState.NONE;
+        playerController.OnEncountered += StartBattle;
+        battleSystem.OnBattleOver += EndBattle;
     }
 
     void StartBattle()
     {
-        gameState = GameState.Battle;
-        battleState = BattleState.START;
+        state = GameState.Battle;
         battleSystem.gameObject.SetActive(true);
         worldCamera.gameObject.SetActive(false);
     }
 
-    void EndBattle(bool playerWon)
+    void EndBattle(bool)
     {
-        if (playerWon)
-        {
-            battleState = BattleState.WON;
-        }
-        else
-        {
-            battleState = BattleState.LOST;
-        }
+        state =  GameState.FreeRoam;
+        battleSystem.gameObject.SetActive(false);
+        worldCamera.gameObject.SetActive(true);
     }
 
     public void Update() 
     {
-        if (gameState == GameState.FreeRoam)
+        if (state == GameState.FreeRoam)
         {
-            worldCamera.gameObject.SetActive(true);
+            playerController.HandleUpdate();
         }
-        else if (gameState == GameState.Battle)
+        else if (state == GameState.Battle)
         {
             battleSystem.HandleUpdate();
         }
     }
-}
-
+}*/
+//If BattleSystem.cs is made. Note to change "private void Update" to "public void Update".
+//To be Cont.
+//Lots of reference to BattleSystem
+//Waiting for that to be made before tweaking most of the code
